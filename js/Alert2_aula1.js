@@ -1,0 +1,1 @@
+alert("Alerta2 rodando em uma pasta externa")

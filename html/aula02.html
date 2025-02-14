@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title>Página Web1</title>
+            <!--Importando meu css para o Html para usar o Selecionador do JavaScript -->
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <p>Vamos entender como funciona os tipos de saida em JavaScript</p>
+            <!--Vamos ver Exemplos de Scripts JavaScripts interno e externo -->
+            <br>
+            <p>Temos Quatro formas de tipos de saida:</p>
+                <ul>
+                    <li>"Selecionando com o método de seleção de objetos do html document.getElementById(elemento_do_html) e depois passando a saida com o método .innerHTML(), esse método vai exibir o contéudo HTML"</li>
+                    <li>"Document.write"</li> 
+                    <li>"Método Alert do JavaScript"</li> 
+                    <li>"Método de exibição de Tela no console com Console.lo(str)"</li>
+                </ul>
+            <!-- Vamos usar esse paragrá abaixo de exemplo para saida com JavaScript -->        
+            <p id = "texto"></p> 
+            <script>
+                alert("Olá! Essa é a Aula02! Exbições, Saidas ou outputs de dados com JavaScript")
+            </script>
+            <script>
+                /*
+                    
+                    Usamos o document.write para escrevermso diretamente no HTML
+                    Muito util para testes, calculos matemáticos e passar funções,
+                    variáveis e objetos do java script para o html
+                */
+                document.write("Oi, acabei de fazer um document.write, realizando cálculo: ");
+                document.write(20+10);
+                /*Lembre-se que JavaScript não possui identação*/
+                console.log("Eu sei que essa porcaria está Cagada!")
+                /*Use F12 ou inpecionar para conseguir ver essa mensagem e ter acesso ao ambiente de desenvolvimento com o navegador*/
+            </script>
+            <script src ="../js/Saidas_aula2.js"></script>
+        </body>
+    </html>

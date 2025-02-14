@@ -1,0 +1,1 @@
+alert("Aqui vamos ver um pouco da sintaxe do JavaScript, aula04");

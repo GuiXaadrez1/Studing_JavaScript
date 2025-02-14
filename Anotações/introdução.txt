@@ -1,0 +1,14 @@
+1 - O que é o JavaScript?
+
+	JavaScript é uma linguagem de programação utilizada para adcionar interatividade ao seu site, ele é responsável para trazer dinamismo. 
+s
+	Exemplos em aplicações: ações quando botões são pressionados, validações em formulários. mudanças dinâmicas na pagina,  animações e outras funcionalidades
+
+	Tem por extensão em seu arquivo o .js e está sempre ligado ao documento HTML
+	
+	HTML, CSS E JAVASCRIPT -> Forma a nossa página web
+
+2 - O que é um script JavaScript interno e externo?
+
+	No Html aula01 -> Vamos entender a diferença de Scripts JavaScript interno para o Externo ao HTML 
+
